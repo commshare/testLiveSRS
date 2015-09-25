@@ -2685,3 +2685,138 @@
 [2015-09-25 15:39:05.962][trace][7596][435] RTMP client ip=192.168.10.88
 [2015-09-25 15:39:06.685][trace][7596][435] complex handshake success
 [2015-09-25 15:39:07.264][trace][7596][435] connect app, tcUrl=rtmp://192.168.10.33:1935/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=1935, app=live, args=null
+[2015-09-25 15:39:09.126][trace][7596][435] client identified, type=publish(FMLEPublish), stream_name=liveStream, duration=-1.00
+[2015-09-25 15:39:09.126][trace][7596][435] out chunk size to 60000
+[2015-09-25 15:39:09.126][trace][7596][435] source url=__defaultVhost__/live/liveStream, ip=192.168.10.88, cache=1, is_edge=0, source_id=-1[-1]
+[2015-09-25 15:39:10.267][trace][7596][435] input chunk size to 60000
+[2015-09-25 15:39:10.315][trace][7596][431] update source_id=435[435]
+[2015-09-25 15:39:11.516][trace][7596][431] -> PLA time=41109, msgs=0, okbps=184,215,0, ikbps=0,0,0
+[2015-09-25 15:39:11.755][trace][7596][435] got metadata, width=360, height=288, vcodec=4, acodec=2
+[2015-09-25 15:39:13.464][trace][7596][435] <- CPB time=3084, okbps=4,0,0, ikbps=52,0,0
+[2015-09-25 15:39:21.689][trace][7596][431] -> PLA time=51127, msgs=13, okbps=205,215,0, ikbps=0,0,0
+[2015-09-25 15:39:23.333][trace][7596][435] <- CPB time=13213, okbps=1,0,0, ikbps=209,0,0
+[2015-09-25 15:39:28.632][trace][7596][435] cleanup when unpublish
+[2015-09-25 15:39:28.632][trace][7596][435] control message(unpublish) accept, retry stream service.
+[2015-09-25 15:39:28.633][warn][7596][435][104] client disconnect peer. ret=1004
+[2015-09-25 15:39:28.633][warn][7596][435][22] join thread failed. code=-1
+[2015-09-25 15:39:29.666][trace][7596][437] RTMP client ip=192.168.10.88
+[2015-09-25 15:39:30.154][trace][7596][437] complex handshake success
+[2015-09-25 15:39:31.204][trace][7596][437] connect app, tcUrl=rtmp://192.168.10.33:1935/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=1935, app=live, args=null
+[2015-09-25 15:39:32.551][trace][7596][431] -> PLA time=62144, msgs=0, okbps=206,217,0, ikbps=0,0,0
+[2015-09-25 15:39:33.485][trace][7596][437] client identified, type=publish(FMLEPublish), stream_name=liveStream, duration=-1.00
+[2015-09-25 15:39:33.485][trace][7596][437] out chunk size to 60000
+[2015-09-25 15:39:33.485][trace][7596][437] source url=__defaultVhost__/live/liveStream, ip=192.168.10.88, cache=1, is_edge=0, source_id=-1[-1]
+[2015-09-25 15:39:34.704][trace][7596][437] input chunk size to 60000
+[2015-09-25 15:39:34.753][trace][7596][431] update source_id=437[437]
+[2015-09-25 15:39:35.716][trace][7596][437] got metadata, width=360, height=288, vcodec=4, acodec=2
+[2015-09-25 15:39:39.584][trace][7596][437] <- CPB time=5102, okbps=3,0,0, ikbps=113,0,0
+[2015-09-25 15:39:42.777][trace][7596][431] -> PLA time=72348, msgs=12, okbps=205,217,0, ikbps=0,0,0
+[2015-09-25 15:39:49.768][trace][7596][437] <- CPB time=15303, okbps=1,0,0, ikbps=222,0,0
+[2015-09-25 15:39:52.575][trace][7596][437] cleanup when unpublish
+[2015-09-25 15:39:52.575][trace][7596][437] control message(unpublish) accept, retry stream service.
+[2015-09-25 15:39:52.575][warn][7596][437][104] client disconnect peer. ret=1004
+[2015-09-25 15:39:52.575][warn][7596][437][22] join thread failed. code=-1
+[2015-09-25 15:39:53.006][trace][7596][431] -> PLA time=82551, msgs=0, okbps=219,217,0, ikbps=0,0,0
+[2015-09-25 15:39:53.800][trace][7596][439] RTMP client ip=192.168.10.88
+[2015-09-25 15:39:54.609][trace][7596][439] complex handshake success
+[2015-09-25 15:39:55.291][trace][7596][439] connect app, tcUrl=rtmp://192.168.10.33:1935/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=1935, app=live, args=null
+[2015-09-25 15:39:58.089][trace][7596][439] client identified, type=publish(FMLEPublish), stream_name=liveStream, duration=-1.00
+[2015-09-25 15:39:58.089][trace][7596][439] out chunk size to 60000
+[2015-09-25 15:39:58.089][trace][7596][439] source url=__defaultVhost__/live/liveStream, ip=192.168.10.88, cache=1, is_edge=0, source_id=-1[-1]
+[2015-09-25 15:39:59.263][trace][7596][439] input chunk size to 60000
+[2015-09-25 15:39:59.310][trace][7596][431] update source_id=439[439]
+[2015-09-25 15:40:00.698][trace][7596][439] got metadata, width=360, height=288, vcodec=4, acodec=2
+[2015-09-25 15:40:03.122][trace][7596][431] -> PLA time=92605, msgs=15, okbps=201,177,0, ikbps=0,0,0
+[2015-09-25 15:40:06.824][trace][7596][439] <- CPB time=7503, okbps=2,0,0, ikbps=125,0,0
+[2015-09-25 15:40:13.261][trace][7596][431] -> PLA time=102810, msgs=0, okbps=213,177,0, ikbps=0,0,0
+[2015-09-25 15:40:14.031][trace][7596][439] cleanup when unpublish
+[2015-09-25 15:40:14.445][trace][7596][439] control message(unpublish) accept, retry stream service.
+[2015-09-25 15:40:14.446][warn][7596][439][104] client disconnect peer. ret=1004
+[2015-09-25 15:40:14.446][warn][7596][439][22] join thread failed. code=-1
+[2015-09-25 15:40:23.487][trace][7596][431] -> PLA time=113078, msgs=0, okbps=196,177,0, ikbps=0,0,0
+[2015-09-25 15:40:33.693][trace][7596][431] -> PLA time=123284, msgs=0, okbps=180,133,0, ikbps=0,0,0
+[2015-09-25 15:40:43.903][trace][7596][431] -> PLA time=133493, msgs=0, okbps=167,133,0, ikbps=0,0,0
+[2015-09-25 15:40:54.108][trace][7596][431] -> PLA time=143701, msgs=0, okbps=155,133,0, ikbps=0,0,0
+[2015-09-25 15:41:04.318][trace][7596][431] -> PLA time=153908, msgs=0, okbps=145,0,0, ikbps=0,0,0
+[2015-09-25 15:41:14.524][trace][7596][431] -> PLA time=164115, msgs=0, okbps=136,0,0, ikbps=0,0,0
+[2015-09-25 15:41:24.733][trace][7596][431] -> PLA time=174323, msgs=0, okbps=129,0,0, ikbps=0,0,0
+[2015-09-25 15:41:34.938][trace][7596][431] -> PLA time=184531, msgs=0, okbps=122,0,0, ikbps=0,0,0
+[2015-09-25 15:41:45.268][trace][7596][431] -> PLA time=194662, msgs=0, okbps=115,0,0, ikbps=0,0,0
+[2015-09-25 15:41:55.278][trace][7596][431] -> PLA time=204870, msgs=0, okbps=110,0,0, ikbps=0,0,0
+[2015-09-25 15:42:05.485][trace][7596][431] -> PLA time=215078, msgs=0, okbps=105,0,0, ikbps=0,0,0
+[2015-09-25 15:42:15.756][trace][7596][431] -> PLA time=225153, msgs=0, okbps=100,0,0, ikbps=0,0,0
+[2015-09-25 15:42:25.961][trace][7596][431] -> PLA time=235362, msgs=0, okbps=95,0,0, ikbps=0,0,0
+[2015-09-25 15:42:36.166][trace][7596][431] -> PLA time=245573, msgs=0, okbps=92,0,0, ikbps=0,0,0
+[2015-09-25 15:42:46.372][trace][7596][431] -> PLA time=255782, msgs=0, okbps=88,0,0, ikbps=0,0,0
+[2015-09-25 15:42:56.578][trace][7596][431] -> PLA time=265992, msgs=0, okbps=85,0,0, ikbps=0,0,0
+[2015-09-25 15:43:06.781][trace][7596][431] -> PLA time=276201, msgs=0, okbps=82,0,0, ikbps=0,0,0
+[2015-09-25 15:43:16.988][trace][7596][431] -> PLA time=286410, msgs=0, okbps=79,0,0, ikbps=0,0,0
+[2015-09-25 15:43:27.192][trace][7596][431] -> PLA time=296621, msgs=0, okbps=76,0,76, ikbps=0,0,0
+[2015-09-25 15:43:37.399][trace][7596][431] -> PLA time=306828, msgs=0, okbps=73,0,76, ikbps=0,0,0
+[2015-09-25 15:43:47.601][trace][7596][431] -> PLA time=317040, msgs=0, okbps=71,0,76, ikbps=0,0,0
+[2015-09-25 15:43:57.808][trace][7596][431] -> PLA time=327246, msgs=0, okbps=69,0,76, ikbps=0,0,0
+[2015-09-25 15:44:08.012][trace][7596][431] -> PLA time=337456, msgs=0, okbps=67,0,76, ikbps=0,0,0
+[2015-09-25 15:44:18.220][trace][7596][431] -> PLA time=347660, msgs=0, okbps=65,0,76, ikbps=0,0,0
+[2015-09-25 15:44:28.423][trace][7596][431] -> PLA time=357869, msgs=0, okbps=63,0,76, ikbps=0,0,0
+[2015-09-25 15:44:38.632][trace][7596][431] -> PLA time=368074, msgs=0, okbps=61,0,76, ikbps=0,0,0
+[2015-09-25 15:44:48.581][trace][7596][431] -> PLA time=378083, msgs=0, okbps=60,0,76, ikbps=0,0,0
+[2015-09-25 15:44:58.785][trace][7596][431] -> PLA time=388290, msgs=0, okbps=58,0,76, ikbps=0,0,0
+[2015-09-25 15:45:08.988][trace][7596][431] -> PLA time=398502, msgs=0, okbps=57,0,76, ikbps=0,0,0
+[2015-09-25 15:45:19.193][trace][7596][431] -> PLA time=408709, msgs=0, okbps=55,0,76, ikbps=0,0,0
+[2015-09-25 15:45:29.395][trace][7596][431] -> PLA time=418921, msgs=0, okbps=54,0,76, ikbps=0,0,0
+[2015-09-25 15:45:39.600][trace][7596][431] -> PLA time=429127, msgs=0, okbps=53,0,76, ikbps=0,0,0
+[2015-09-25 15:45:49.803][trace][7596][431] -> PLA time=439340, msgs=0, okbps=51,0,76, ikbps=0,0,0
+[2015-09-25 15:46:00.007][trace][7596][431] -> PLA time=449549, msgs=0, okbps=50,0,76, ikbps=0,0,0
+[2015-09-25 15:46:10.209][trace][7596][431] -> PLA time=459759, msgs=0, okbps=49,0,76, ikbps=0,0,0
+[2015-09-25 15:46:20.413][trace][7596][431] -> PLA time=469966, msgs=0, okbps=48,0,76, ikbps=0,0,0
+[2015-09-25 15:46:30.616][trace][7596][431] -> PLA time=480175, msgs=0, okbps=47,0,76, ikbps=0,0,0
+[2015-09-25 15:46:40.819][trace][7596][431] -> PLA time=490383, msgs=0, okbps=46,0,76, ikbps=0,0,0
+[2015-09-25 15:46:51.022][trace][7596][431] -> PLA time=500594, msgs=0, okbps=45,0,76, ikbps=0,0,0
+[2015-09-25 15:47:01.149][trace][7596][431] -> PLA time=510740, msgs=0, okbps=44,0,76, ikbps=0,0,0
+[2015-09-25 15:47:11.356][trace][7596][431] -> PLA time=520948, msgs=0, okbps=43,0,76, ikbps=0,0,0
+[2015-09-25 15:47:21.763][trace][7596][431] -> PLA time=531156, msgs=0, okbps=42,0,76, ikbps=0,0,0
+[2015-09-25 15:47:31.768][trace][7596][431] -> PLA time=541361, msgs=0, okbps=42,0,76, ikbps=0,0,0
+[2015-09-25 15:47:41.980][trace][7596][431] -> PLA time=551569, msgs=0, okbps=41,0,76, ikbps=0,0,0
+[2015-09-25 15:47:52.185][trace][7596][431] -> PLA time=561778, msgs=0, okbps=40,0,76, ikbps=0,0,0
+[2015-09-25 15:48:02.398][trace][7596][431] -> PLA time=571988, msgs=0, okbps=39,0,76, ikbps=0,0,0
+[2015-09-25 15:48:12.604][trace][7596][431] -> PLA time=582197, msgs=0, okbps=39,0,76, ikbps=0,0,0
+[2015-09-25 15:48:22.814][trace][7596][431] -> PLA time=592405, msgs=0, okbps=38,0,76, ikbps=0,0,0
+[2015-09-25 15:48:33.221][trace][7596][431] -> PLA time=602615, msgs=0, okbps=37,0,0, ikbps=0,0,0
+[2015-09-25 15:48:43.232][trace][7596][431] -> PLA time=612823, msgs=0, okbps=37,0,0, ikbps=0,0,0
+[2015-09-25 15:48:53.439][trace][7596][431] -> PLA time=623032, msgs=0, okbps=36,0,0, ikbps=0,0,0
+[2015-09-25 15:49:03.650][trace][7596][431] -> PLA time=633239, msgs=0, okbps=36,0,0, ikbps=0,0,0
+[2015-09-25 15:49:13.855][trace][7596][431] -> PLA time=643447, msgs=0, okbps=35,0,0, ikbps=0,0,0
+[2015-09-25 15:49:24.066][trace][7596][431] -> PLA time=653655, msgs=0, okbps=34,0,0, ikbps=0,0,0
+[2015-09-25 15:49:34.241][trace][7596][431] -> PLA time=663740, msgs=0, okbps=34,0,0, ikbps=0,0,0
+[2015-09-25 15:49:44.448][trace][7596][431] -> PLA time=673949, msgs=0, okbps=33,0,0, ikbps=0,0,0
+[2015-09-25 15:49:54.651][trace][7596][431] -> PLA time=684160, msgs=0, okbps=33,0,0, ikbps=0,0,0
+[2015-09-25 15:50:04.837][trace][7596][431] -> PLA time=694230, msgs=0, okbps=32,0,0, ikbps=0,0,0
+[2015-09-25 15:50:15.040][trace][7596][431] -> PLA time=704439, msgs=0, okbps=32,0,0, ikbps=0,0,0
+[2015-09-25 15:50:25.248][trace][7596][431] -> PLA time=714648, msgs=0, okbps=32,0,0, ikbps=0,0,0
+[2015-09-25 15:50:35.450][trace][7596][431] -> PLA time=724859, msgs=0, okbps=31,0,0, ikbps=0,0,0
+[2015-09-25 15:50:45.657][trace][7596][431] -> PLA time=735065, msgs=0, okbps=31,0,0, ikbps=0,0,0
+[2015-09-25 15:50:55.861][trace][7596][431] -> PLA time=745276, msgs=0, okbps=30,0,0, ikbps=0,0,0
+[2015-09-25 15:51:06.058][trace][7596][431] -> PLA time=755551, msgs=0, okbps=30,0,0, ikbps=0,0,0
+[2015-09-25 15:51:16.266][trace][7596][431] -> PLA time=765755, msgs=0, okbps=29,0,0, ikbps=0,0,0
+[2015-09-25 15:51:26.468][trace][7596][431] -> PLA time=775959, msgs=0, okbps=29,0,0, ikbps=0,0,0
+[2015-09-25 15:51:36.721][trace][7596][431] -> PLA time=786162, msgs=0, okbps=29,0,0, ikbps=0,0,0
+[2015-09-25 15:51:46.925][trace][7596][431] -> PLA time=796366, msgs=0, okbps=28,0,0, ikbps=0,0,0
+[2015-09-25 15:51:57.134][trace][7596][431] -> PLA time=806570, msgs=0, okbps=28,0,0, ikbps=0,0,0
+[2015-09-25 15:52:07.335][trace][7596][431] -> PLA time=816774, msgs=0, okbps=28,0,0, ikbps=0,0,0
+[2015-09-25 15:52:17.543][trace][7596][431] -> PLA time=826977, msgs=0, okbps=27,0,0, ikbps=0,0,0
+[2015-09-25 15:52:27.748][trace][7596][431] -> PLA time=837180, msgs=0, okbps=27,0,0, ikbps=0,0,0
+[2015-09-25 15:52:37.953][trace][7596][431] -> PLA time=847384, msgs=0, okbps=27,0,0, ikbps=0,0,0
+[2015-09-25 15:52:48.158][trace][7596][431] -> PLA time=857588, msgs=0, okbps=26,0,0, ikbps=0,0,0
+[2015-09-25 15:52:58.364][trace][7596][431] -> PLA time=867791, msgs=0, okbps=26,0,0, ikbps=0,0,0
+[2015-09-25 15:53:08.568][trace][7596][431] -> PLA time=877995, msgs=0, okbps=26,0,0, ikbps=0,0,0
+[2015-09-25 15:53:18.776][trace][7596][431] -> PLA time=888199, msgs=0, okbps=25,0,0, ikbps=0,0,0
+[2015-09-25 15:53:28.982][trace][7596][431] -> PLA time=898402, msgs=0, okbps=25,0,0, ikbps=0,0,0
+[2015-09-25 15:53:38.868][trace][7596][431] -> PLA time=908458, msgs=0, okbps=25,0,0, ikbps=0,0,0
+[2015-09-25 15:53:49.073][trace][7596][431] -> PLA time=918662, msgs=0, okbps=24,0,0, ikbps=0,0,0
+[2015-09-25 15:53:59.278][trace][7596][431] -> PLA time=928866, msgs=0, okbps=24,0,0, ikbps=0,0,0
+[2015-09-25 15:54:09.483][trace][7596][431] -> PLA time=939069, msgs=0, okbps=24,0,0, ikbps=0,0,0
+[2015-09-25 15:54:19.687][trace][7596][431] -> PLA time=949273, msgs=0, okbps=24,0,0, ikbps=0,0,0
+[2015-09-25 15:54:29.893][trace][7596][431] -> PLA time=959477, msgs=0, okbps=23,0,0, ikbps=0,0,0
+[2015-09-25 15:54:40.099][trace][7596][431] -> PLA time=969680, msgs=0, okbps=23,0,0, ikbps=0,0,0
+[2015-09-25 15:54:46.391][warn][7596][431][104] client disconnect peer. ret=1004
+[2015-09-25 15:54:46.391][warn][7596][431][22] join thread failed. code=-1

@@ -1,0 +1,1 @@
+./configure --with-arm-ubuntu12   --with-ssl --with-hls     --log-verbose     --prefix=/home/rtmpSRV/srs.git/out    --without-librtmp   --log-info
