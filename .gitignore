@@ -4,19 +4,19 @@
 *.o
 
 # Compiled Dynamic libraries
-*.so
+#*.so
 *.dylib
 
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+#*.a
 
 # by winlin
 *.pyc
 *.swp
-/trunk/Makefile
-/trunk/objs
+#/trunk/Makefile
+#/trunk/objs
 /trunk/research/librtmp/objs
 /trunk/3rdparty/ccache/ccache-3.1.9
 /trunk/3rdparty/gprof/graphviz-2.36.0
