@@ -1,6 +1,6 @@
-build srs by means of debian wheezy gcc(armhf-4.6.3) and run on it ok!
-###
-#Simple-RTMP-Server
+（1）build srs by means of “debian wheezy” with its toolschain gcc(armhf-4.6.3) and run on ns115 ok!  20150924
+
+（0）### fork from  #Simple-RTMP-Server
 
 SRS/1.0, [HuKaiqun](https://github.com/simple-rtmp-server/srs/wiki/v1_CN_Product#release10)
 
